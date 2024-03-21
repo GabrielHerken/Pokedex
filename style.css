@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgb(181, 255, 243), rgb(87, 255, 162));
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 97, 161);
+}
+
+#mainDiv {
+    width: 25rem;
+    height: 40rem;
+    margin-top: 2rem;
+}
+
+#sprite {
+    height: 100%;
+}
+
+.top {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(80, 91, 100, 0.322);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#stats {
+    background-color: white;
+    width: 100%;
+    height: 65%;
+    border-radius: 0 0 30px 30px;
+}
+
+#stats h1 {
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: normal;
+}
+
+#health {
+    padding-top: 0.75rem;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#health div {
+    background-color: rgb(11, 255, 182);
+    width: 60%;
+    height: .35rem;
+}
+
+#health p {
+    width: 100%;
+    padding-top: 0.5rem;
+    text-align: center;
+    color: black;
+}
+
+#numbers {
+    margin: 2rem 1.5rem 0rem;
+    display: grid;
+    border: .15rem solid rgb(218, 218, 218);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 1rem;
+}
+
+#numbers div {
+    grid-area: 1;
+}
+
+#numbers div p {
+    text-align: center;
+}
+
+#middle {
+    border: .15rem solid rgb(218, 218, 218);
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#Abilities {
+    color: black;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+#Abilities span {
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+}
+
+#AD {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 45%;
+}
+
+.const {
+    font-size: .75rem;
+    color: rgb(99, 99, 99);
+}
+
+.val {
+    font-size: 1.25rem;
+}
+
+.AD {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FloatingButton {
+    background-color: rgb(114, 217, 243);
+    border-radius: 10px;
+    width: fit-content;
+    padding: .5rem;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+}
+
+.Title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .25rem;
+}
+
+.rest {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+input {
+    position: absolute;
+    top: 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}

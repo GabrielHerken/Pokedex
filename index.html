@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="type.js" defer></script>
+</head>
+<body>
+    <div id="mainDiv">
+        <div class="top">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" alt="Pokémon Sprite" id="sprite">
+        </div>
+        <div id="stats">
+            <h1 id="name">Bulbasaur</h1>
+            <div id="health"><!--health n condiz com o q realmente e, na verdade e so o numero da pokedex-->
+                <div></div>
+                <p id="number">N° 0001</p>
+            </div>
+            <div id="numbers">
+                <div>
+                    <p class="val" id="type">Leaf/Poisonous</p>
+                    <p class="const">Type</p>
+                </div>
+                <div id ="middle">
+                    <p class="val" id="weight">6.89kg</p>
+                    <p class="const">Weight</p>
+                </div>
+                <div>
+                    <p class="val" id="height">0.71m</p>
+                    <p class="const">Height</p>
+                </div>
+            </div>
+            <p id="Abilities"><span>Abilities:</span> Overgrow</p>
+            <!--AD == advantages / disvantages-->
+            
+            <div id="AD">
+                <div class="AD" id="first">
+                    <div class="Title">
+                        <div class="FloatingButton">Advantages</div>
+                    </div>
+                    <div class="rest" id="adv">
+                        <div class="FloatingButton">Ground</div>
+                        <div class="FloatingButton">Rock</div>
+                        <div class="FloatingButton">Water</div>
+                        <div class="FloatingButton">Grass</div>
+                        <div class="FloatingButton">Fairy</div>
+                    </div>
+                </div>
+                <div class="AD">
+                    <div class="Title">
+                        <div class="FloatingButton">Disvantages</div>
+                    </div>
+                    <div class="rest" id="dis">
+                        <div class="FloatingButton">Fire</div>
+                        <div class="FloatingButton">Ice</div>
+                        <div class="FloatingButton">Flying</div>
+                        <div class="FloatingButton">Psychic</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="number" id="inp">
+</body>
+</html>
